@@ -4,7 +4,7 @@ name = "minimal-setup-pixi-example"
 platforms = ["linux-64"]
 
 [tasks]
-test = "python -c 'print(\"Hello, world!\")'"
+test = "python -c 'print(\"Hello, world from setup-pixi!\")'"
 
 [dependencies]
 python = ">=3.12.5,<4"
