@@ -1,0 +1,10 @@
+[project]
+channels = ["conda-forge"]
+name = "minimal-setup-pixi-example"
+platforms = ["linux-64"]
+
+[tasks]
+test = "python -c 'print(\"Hello, world!\")'"
+
+[dependencies]
+python = ">=3.12.5,<4"
